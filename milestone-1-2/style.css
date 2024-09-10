@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light grey */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff; /* White */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #333333; /* Dark grey */
+    color: #ffffff; /* White */
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #4a90e2; /* Blue accent */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #4a90e2; /* Blue accent */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333; /* Dark grey */
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #1c1c1c; /* Almost black */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #002d5a; /* Darker Blue */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #e9ecef; /* Light grey */
+}
+
+ul {
+    list-style-type: fill round; 
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #333333; /* Dark grey */
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    background-color: #f9f9f9; /* Very light grey */
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #4a90e2; /* Blue accent */
+    color: #ffffff; /* White */
+    border: none;
+}
+
+button:hover {
+    background-color: #002d5a; /* Darker blue */
+}
